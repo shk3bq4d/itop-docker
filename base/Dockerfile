@@ -1,4 +1,4 @@
-FROM phusion/baseimage:focal-1.1.0
+FROM phusion/baseimage:jammy-1.0.1
 MAINTAINER Vladimir Kunin <we@knowitop.ru>
 
 ARG DEBIAN_FRONTEND=noninteractive
