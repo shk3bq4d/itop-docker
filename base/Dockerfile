@@ -14,6 +14,7 @@ RUN apt-get install -y software-properties-common ca-certificates \
         graphviz \
         curl \
         unzip\
+        mariadb-client \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* \
     && update-alternatives --set php /usr/bin/php7.4
