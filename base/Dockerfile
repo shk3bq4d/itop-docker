@@ -2,8 +2,8 @@ FROM phusion/baseimage:jammy-1.0.1
 MAINTAINER Vladimir Kunin <we@knowitop.ru>
 
 ARG DEBIAN_FRONTEND=noninteractive
-ARG ITOP_VERSION=3.0.2-1
-ARG ITOP_FILENAME=iTop-3.0.2-1-9957.zip
+ARG ITOP_VERSION=3.1.1-1
+ARG ITOP_FILENAME=iTop-3.1.1-1-12561.zip
 
 RUN apt-get install -y software-properties-common ca-certificates \
     && add-apt-repository -y ppa:ondrej/php \
